@@ -1,4 +1,4 @@
-# BluExtractor - Bluetooth Device Scanner (not fully functional yet...)
+# BluExtractor - Bluetooth Device Scanner (not fully functional yet... under construction)
 
 BluExtractor is a C++ program that scans for nearby Bluetooth devices, allowing the user to select a device for further interaction(extracting mac address of previous users).
 
