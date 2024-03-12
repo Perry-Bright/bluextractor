@@ -61,7 +61,9 @@ string selectBluetoothDevice(const vector<string>& devices) {
 
     for (size_t i = 0; i < devices.size(); ++i) {
         cout << i + 1 << ". " << devices[i] << endl;
+        
     }
+    
 }
 
 int main() {
