@@ -63,7 +63,14 @@ string selectBluetoothDevice(const vector<string>& devices) {
         cout << i + 1 << ". " << devices[i] << endl;
         
     }
-    
+    int choice;
+    cin >> choice << endl;
+
+    if(choice > 0 && static<size_t>(choice) <= devices.size()) {
+        return device[choice - 1];
+} else {
+    cerr << "Invalid choice: " << choice << endl;
+    return "";
 }
 
 int main() {
