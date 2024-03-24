@@ -55,7 +55,7 @@ vector<string> discoverBluetoothDevices() {
     return deviceAddresses;
 }
 
-// now here's the function that prompts the user to select a device
+// now here's the function that prompts the user to select a device and returns the mac address of the selected device
 string selectBluetoothDevice(const vector<string>& devices) {
     cout << "Select a Bluetooth device:" << endl;
 
@@ -71,6 +71,7 @@ string selectBluetoothDevice(const vector<string>& devices) {
 } else {
     cerr << "Invalid choice: " << choice << endl;
     return "";
+}
 }
 
 int main() {
